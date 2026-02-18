@@ -102,7 +102,7 @@ export default function Home() {
       <iframe
         width="100%"
         height="100%"
-        src="https://www.youtube.com/embed/6VIov7VXjX8?rel=0&modestbranding=1&showinfo=0&controls=1&autoplay=1&mute=1&playsinline=1"
+        src="https://www.youtube.com/embed/6VIov7VXjX8?rel=0&modestbranding=1&showinfo=0&controls=1&loop=1&autoplay=1&mute=1&playsinline=1"
         title="Demo SABOR - Sistema para Bares y Restaurantes"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
