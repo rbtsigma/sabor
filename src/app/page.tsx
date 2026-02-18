@@ -120,7 +120,7 @@ export default function Home() {
   </div>
   
   <p className="text-center mt-6 text-slate-600 text-lg">
-    Descubre lo fácil y rápido que es manejar tu negocio con SABOR – ¡demo real en acción!
+    Descubre lo fácil y rápido que es manejar tu negocio con SABOR.
   </p>
 </div>
 
