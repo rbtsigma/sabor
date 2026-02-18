@@ -75,9 +75,9 @@ export default function Home() {
 
             <div className="bg-white p-6 md:p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300 border border-slate-100">
               <ChefHat className="w-12 h-12 text-orange-600 mb-6" />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-slate-800">Control total de inventario</h4>
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-slate-800">Flexible y Escalable</h4>
               <p className="text-slate-600 leading-relaxed">
-                Registra entradas, salidas, mermas y alertas de stock bajo. Evita faltantes y desperdicios.
+                Desde una caja y una impresora, hasta múltiples puntos de venta, y n sucursales. SABOR crece contigo sin complicaciones.
               </p>
             </div>
 
