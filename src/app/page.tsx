@@ -94,20 +94,28 @@ export default function Home() {
     {/* Card del Video */}
 <div className="mb-16 md:mb-20">
   <h3 className="text-3xl sm:text-4xl font-bold text-center mb-8 md:mb-12 text-slate-800">
-    Mira SABOR en acción
+    SABOR en acción y sus bondades para tu negocio
   </h3>
   
   <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto border-8 border-slate-800">
-    <div className="aspect-video">
+    <div className="aspect-video relative">
       <iframe
         width="100%"
         height="100%"
-        src="https://www.youtube.com/embed/6VIov7VXjX8?rel=0&modestbranding=1&showinfo=0&controls=1"
+        src="https://www.youtube.com/embed/6VIov7VXjX8?rel=0&modestbranding=1&showinfo=0&controls=1&autoplay=1&mute=1&playsinline=1"
         title="Demo SABOR - Sistema para Bares y Restaurantes"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
+        className="absolute inset-0"
       ></iframe>
+      
+      {/* Poster: imagen que se muestra antes de que cargue el iframe o mientras no hay interacción */}
+      <img
+        src="/logo.jpg"  // ← Sube esta imagen a /public/images/
+        alt="Poster Demo SABOR - Sistema en acción"
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+      />
     </div>
   </div>
   
@@ -115,7 +123,6 @@ export default function Home() {
     Descubre lo fácil y rápido que es manejar tu negocio con SABOR – ¡demo real en acción!
   </p>
 </div>
-
 
 
     {/* Sección Contacto + Formulario */}
