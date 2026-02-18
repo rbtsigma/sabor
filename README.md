@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Rbt 
+npx create-next-app@latest sabor-landing --typescript --tailwind --eslint
+# Elige: Yes al src/, Yes al App Router, No a customize import alias por ahora
+cd sabor-landing
+
+npm install lucide-react framer-motion clsx tailwind-merge
+npm install react-hook-form @hookform/resolvers zod
+# Opcional: npm install react-hook-form @hookform/resolvers zod (para el form)
