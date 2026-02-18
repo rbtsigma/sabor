@@ -97,20 +97,18 @@ export default function Home() {
         Un video dice mas que mil palabras: SABOR transformará tu negocio en acción y control.
       </h3>
       
-      <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto border-8 border-slate-800">
-        {/* Opción 1: Video de YouTube / Vimeo (recomendado) */}
-
-        {/* Opción 2: Si es video local (.mp4) - descomenta si lo usas */}
-         <video
-          controls
-          className="w-full aspect-video object-cover"
-          poster="/logo.png" // opcional: imagen de portada
-        >
-          <source src="/videos/sabor.mp4" type="video/mp4" />
-          Tu navegador no soporta video.
-        </video>
-      </div>
-      
+<div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto border-8 border-slate-800">
+  <video
+    controls
+    autoPlay={false}          // o muted autoPlay si quieres que inicie solo
+    loop
+    className="w-full aspect-video object-cover"
+    poster="/images/poster-sabor.jpg" // opcional, crea una imagen de portada
+  >
+    <source src="/videos/sabor.mp4" type="video/mp4" />
+    Tu navegador no soporta video.
+  </video>
+</div>      
       <p className="text-center mt-6 text-slate-600 text-lg">
         Descubre lo fácil y rápido que es manejar tu negocio con SABOR
       </p>
