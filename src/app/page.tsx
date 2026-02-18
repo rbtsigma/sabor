@@ -94,7 +94,7 @@ export default function Home() {
     {/* Card del Video */}
 <div className="mb-16 md:mb-20">
   <h3 className="text-3xl sm:text-4xl font-bold text-center mb-8 md:mb-12 text-slate-800">
-    Un video vale más que mil palabras: échale un vistazo a las bondades de SABOR.
+    Mira SABOR en acción
   </h3>
   
   <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto border-8 border-slate-800">
@@ -103,7 +103,7 @@ export default function Home() {
         width="100%"
         height="100%"
         src="https://www.youtube.com/embed/6VIov7VXjX8?rel=0&modestbranding=1&showinfo=0&controls=1"
-        title="Demo SABOR - Sistema Automatizado para Bares y Restaurantes"
+        title="Demo SABOR - Sistema para Bares y Restaurantes"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
@@ -115,7 +115,6 @@ export default function Home() {
     Descubre lo fácil y rápido que es manejar tu negocio con SABOR – ¡demo real en acción!
   </p>
 </div>
-
 
 
 
