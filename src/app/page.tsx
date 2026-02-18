@@ -111,11 +111,11 @@ export default function Home() {
       ></iframe>
       
       {/* Poster: imagen que se muestra antes de que cargue el iframe o mientras no hay interacción */}
-      <img
+      {/* <img
         src="/logo.jpg"  // ← Sube esta imagen a /public/images/
         alt="Poster Demo SABOR - Sistema en acción"
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-      />
+      /> */}
     </div>
   </div>
   
