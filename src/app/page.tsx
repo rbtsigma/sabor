@@ -92,27 +92,32 @@ export default function Home() {
   <div className="max-w-6xl mx-auto">
     
     {/* Card del Video */}
-    <div className="mb-16 md:mb-20">
-      <h3 className="text-3xl sm:text-4xl font-bold text-center mb-8 md:mb-12 text-slate-800">
-        Un video dice mas que mil palabras: SABOR transformará tu negocio en acción y control.
-      </h3>
-      
-<div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto border-8 border-slate-800">
-  <video
-    controls
-    autoPlay={false}          // o muted autoPlay si quieres que inicie solo
-    loop
-    className="w-full aspect-video object-cover"
-    poster="/images/poster-sabor.jpg" // opcional, crea una imagen de portada
-  >
-    <source src="/videos/sabor.mp4" type="video/mp4" />
-    Tu navegador no soporta video.
-  </video>
-</div>      
-      <p className="text-center mt-6 text-slate-600 text-lg">
-        Descubre lo fácil y rápido que es manejar tu negocio con SABOR
-      </p>
+<div className="mb-16 md:mb-20">
+  <h3 className="text-3xl sm:text-4xl font-bold text-center mb-8 md:mb-12 text-slate-800">
+    Un video vale más que mil palabras: échale un vistazo a las bondades de SABOR.
+  </h3>
+  
+  <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto border-8 border-slate-800">
+    <div className="aspect-video">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/6VIov7VXjX8?rel=0&modestbranding=1&showinfo=0&controls=1"
+        title="Demo SABOR - Sistema Automatizado para Bares y Restaurantes"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
     </div>
+  </div>
+  
+  <p className="text-center mt-6 text-slate-600 text-lg">
+    Descubre lo fácil y rápido que es manejar tu negocio con SABOR – ¡demo real en acción!
+  </p>
+</div>
+
+
+
 
     {/* Sección Contacto + Formulario */}
     <div id="contacto" className="max-w-3xl mx-auto">
