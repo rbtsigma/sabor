@@ -15,7 +15,7 @@ export default function Home() {
         alt="SABOR - Sistema Automatizado para Bares y Restaurantes" 
         className="h-10 md:h-24 w-auto"  // ajusta el height según tu logo
       />
-      <span className="h-10 md:h-12 ml-3 text-3xl font-bold text-orange-600">SABOR</span>  
+      <span className="h-10 md:h-12 ml-3 text-3xl font-bold text-orange-600"></span>  
     </div>
     </a>
 
@@ -36,7 +36,7 @@ export default function Home() {
           SABOR <span className="text-orange-600">revoluciona</span> tu bar o restaurante
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl text-slate-600 mb-10 max-w-4xl mx-auto leading-relaxed">
-          Sistema automatizado para bares o Restaurantes, todo-en-uno: ventas rápidas, inventario en tiempo real, control de mesas, reportes claros y más.  
+          Sistema automatizado para bares o Restaurantes, ( Neverías, Paleterías, Panaderías, Cafeterías ) todo-en-uno: ventas rápidas, inventario en tiempo real, control de mesas, reportes claros y más.  
           Menos estrés, más control y más ganancias desde el primer día.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
